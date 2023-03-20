@@ -3,18 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <title>My first Webpage</title>
+    <link href="./styles/stylesheet.css" type="text/css" rel="stylesheet" />
   </head>
+  <style>
+    h1 {
+      color: lightcoral;
+    }
+  </style>
   <body>
     <h1>My name is Jacob</h1>
-    <p>And I am a Cat person</p>
-    <p>Shopping List</p>
+
+    <a href="./html/formSuccess.html">TO FORM SUCCESS PAGE</a>
+
+    <p style="color: blueviolet">And I am a Cat person</p>
+    <p class="shoppingList">Shopping List</p>
     <ul>
-      <li>Dough</li>
-      <li>Cheese</li>
+      <li class="shoppingList">Dough</li>
+      <li class="shoppingList">Cheese</li>
       <li>Tomato base</li>
       <li>Pepperoni</li>
     </ul>
-    <p>Making the pizza:</p>
+    <p id="pizzaList">Making the pizza:</p>
     <ol>
       <li>Roll dough</li>
       <li>Spread suace</li>

@@ -1,0 +1,26 @@
+.shoppingList {
+  color: brown;
+}
+
+#pizzaList {
+  color: magenta;
+}
+
+/* Makes all unvisited links purple with no text decoration (i.e. not underlined)*/
+a:link {
+  color: purple;
+  text-decoration: none;
+}
+
+/* Makes all visited links gray and with a line through */
+a:visited {
+  color: orange;
+  text-decoration: line-through;
+}
+
+/* Makes links purple and bold when hovered over */
+a:hover {
+  color: red;
+  font-size: xx-large;
+  font-weight: bold;
+}
