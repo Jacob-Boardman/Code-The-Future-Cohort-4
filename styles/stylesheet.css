@@ -1,5 +1,24 @@
+body {
+  background-color: antiquewhite;
+  background-image: url('../images/pexels-miguel-á-padriñán-255379.jpg');
+  background-size: cover;
+}
+
+ul {
+  background-color: bisque;
+  border: blue 6px groove;
+  border-radius: 5px;
+}
+
+ol {
+  background-color: crimson;
+  border: cadetblue 10px inset;
+  box-shadow: grey 5px 5px 10px;
+}
+
 .shoppingList {
   color: brown;
+  font-weight: bold;
 }
 
 #pizzaList {
